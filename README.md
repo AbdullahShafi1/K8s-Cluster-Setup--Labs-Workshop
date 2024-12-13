@@ -1,9 +1,10 @@
-# Kubernetes Cluster Setup with Podinfo Deployment
+# Kubernetes Cluster Setup and Practicals
 
-This guide walks you through setting up a Kubernetes cluster using kubeadm and deploying the sample application **Podinfo**. The cluster consists of one master node and two worker nodes.
+This guide walks you through setting up a Kubernetes cluster using kubeadm and deploying the sample application **Podinfo**. The cluster consists of one master node and two worker nodes. Then we will further move to do some handson in our cluster. 
 
 ---
-
+## Note!
+If you want to see all the commands I run on my master cluster then all the history is captured in "logs" folder.
 ## Prerequisites
 
 1. **System Requirements:**

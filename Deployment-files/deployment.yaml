@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: podinfo-deploy
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: podinfo-deploy
+    spec:
+      containers:
+      - name: podinfo
+        image: stefanprodan/podinfo
+        ports:
+        - containerPort: 9898
