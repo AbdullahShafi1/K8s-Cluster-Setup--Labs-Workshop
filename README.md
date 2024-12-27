@@ -1,8 +1,10 @@
-# Kubernetes Cluster Setup and Practicals
+# Kubernetes Cluster Setup and Certification Labs Workshop
 
+
+---
 In this workshop, we will first set up the Kubernetes cluster and then move on to practical tasks, covering a range of topics included in the CKA (Certified Kubernetes Administrator), CKAD (Certified Kubernetes Application Developer), and CKS (Certified Kubernetes Security Specialist) certification labs.
 If you want to see all the commands I run on my master cluster then all the history is captured in "logs" folder.
----
+
 ## Note!
 Each heading has its own folder. Inside each folder, you'll find all the steps and commands needed. Follow the markdown files in each folder in numeric order to complete the workshop.
 ## (A).Prerequisites
